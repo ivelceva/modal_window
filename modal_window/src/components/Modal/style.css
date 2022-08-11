@@ -36,14 +36,18 @@
     width: 800px;
     height: 600px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.144);
-    border-radius: 10px; 
+    border-radius: 20px; 
     transition: all .3s;
     animation: showModal .3s ease-out;
+    background-color: antiquewhite;
 }
 
 .modal-header {
     padding: 10px 20px;
-    border-bottom: 1px solid rgb(219, 219, 219);
+    border-bottom: 4px solid rgb(35, 130, 151);
+    color: grey;
+    background-color: rgb(135, 222, 222);
+    text-align: center;
    
 }
 
