@@ -2,3 +2,8 @@
   height: 100vh;
 }
 
+.container {
+  background-image: url(./Images/beach.jpg);
+  background-size: 100% 100%;
+}
+

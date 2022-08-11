@@ -24,7 +24,7 @@ export const Controls = () => {
     const handleClickThirdButton = () => {
       openModal({
         title: 'Opened by Third Button',
-        children: <div><button onClick={closeModal}>CLOSE MODAL</button></div>
+        children: <div><button onClick={closeModal}>CLOSE MODAL!</button></div>
       });
     }
 
