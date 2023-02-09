@@ -11,37 +11,44 @@ export const Controls = () => {
       openModal({
         title: "Opened by First Button",
         children: (
-          <p>
-            <h1 class="modal-title-all">
-              {" "}
-              <span class="first-modal-title">Gladiators Colosseum:</span>{" "}
-              <span class="modal-one-title">The Roman Gladiators</span>
-            </h1>
+          <div class="first-window">
+            <p>
+              <h1 class="modal-title-all">
+                {" "}
+                <span class="first-modal-title">
+                  Gladiators Colosseum:
+                </span>{" "}
+                <span class="modal-one-title">The Roman Gladiators</span>
+              </h1>
 
-            <p class="first-modal-paragraphs">
-              <b>
-                Do you remember the great movie by Ridley Scott with Russell
-                Crowe?
-              </b>{" "}
-              Colosseum Gladiators are iconic figures for the city of Ancient
-              Rome. But who were the Roman gladiators and what is their fame?
-              <p>
-                <b>Roman Gladiators: who were they?</b> The gladiator was a
-                fighter of Ancient Rome. The name derives from gladio, the Latin
-                word for the sword used during the fighting. The Colosseum
-                Gladiators were usually slaves or prisoners of war, or people
-                condemned for committing some crime.{" "}
-              </p>
-              <p>
-                The duels between gladiators were born in Etruria and were later
-                taken up by the Romans. Their origin is attributable to the
-                munera, or public works created for the sake of the Roman
-                people. The munera gladiatoria were public shows offered by
-                wealthy people on certain occasions. Among these were gladiator
-                games.
+              <p class="first-modal-paragraphs">
+                <b>
+                  Do you remember the great movie by Ridley Scott with Russell
+                  Crowe?
+                </b>{" "}
+                Colosseum Gladiators are iconic figures for the city of Ancient
+                Rome. But who were the Roman gladiators and what is their fame?
+                <p>
+                  <b>Roman Gladiators: who were they?</b> The gladiator was a
+                  fighter of Ancient Rome. The name derives from gladio, the
+                  Latin word for the sword used during the fighting. The
+                  Colosseum Gladiators were usually slaves or prisoners of war,
+                  or people condemned for committing some crime.{" "}
+                </p>
+                <p>
+                  The duels between gladiators were born in Etruria and were
+                  later taken up by the Romans. Their origin is attributable to
+                  the munera, or public works created for the sake of the Roman
+                  people. The munera gladiatoria were public shows offered by
+                  wealthy people on certain occasions. Among these were
+                  gladiator games.
+                </p>
               </p>
             </p>
-          </p>
+            <button class="close-first-modal" onClick={closeModal}>
+              CLOSE MODAL!
+            </button>
+          </div>
         ),
       });
     }
@@ -50,25 +57,31 @@ export const Controls = () => {
       openModal({
         title: "Opened by Second Button",
         children: (
-          <p>
-            <h1 class="second-modal-title">Gladiator games</h1>
-            <p class="second-modal-paragraph">
-              Starting from 105 BC the gladiator games in Rome became public.
-              The gladiator game show increased during the Roman Empire and the
-              Flavia dynasty erected the largest amphitheater in the world, the
-              Flavian Amphitheater.
-              <p>
-                Inside the Colosseum the most important gladiator game show was
-                held. Prohibited by Constantine I, the games continued despite
-                the prohibitions. Among the most requested fighters there were
-                convicts and prisoners of war, coming from Thrace and Germany,
-                for their strength and for having nothing to lose. For them, in
-                fact, winner in gladiator shows means creating a career and a
-                possible independence. There was numerous public participation,
-                with frequent clashes between opposing factions.
+          <div class="second-window">
+            <p>
+              <h1 class="second-modal-title">Gladiator games</h1>
+              <p class="second-modal-paragraph">
+                Starting from 105 BC the gladiator games in Rome became public.
+                The gladiator game show increased during the Roman Empire and
+                the Flavia dynasty erected the largest amphitheater in the
+                world, the Flavian Amphitheater.
+                <p>
+                  Inside the Colosseum the most important gladiator game show
+                  was held. Prohibited by Constantine I, the games continued
+                  despite the prohibitions. Among the most requested fighters
+                  there were convicts and prisoners of war, coming from Thrace
+                  and Germany, for their strength and for having nothing to
+                  lose. For them, in fact, winner in gladiator shows means
+                  creating a career and a possible independence. There was
+                  numerous public participation, with frequent clashes between
+                  opposing factions.
+                </p>
               </p>
             </p>
-          </p>
+            <button class="close-second-modal" onClick={closeModal}>
+              CLOSE MODAL!
+            </button>
+          </div>
         ),
       });
     }
