@@ -19,3 +19,98 @@
   cursor: pointer;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
+
+
+/* FIRST MODAL */
+.modal-title-all {
+  text-align: center;
+}
+
+.first-modal-title {
+  color: #4682B4;
+}
+
+.modal-one-title {
+  color: lightslategray;
+}
+
+.first-modal-paragraphs {
+  color: darkslategray;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+/* SECOND MODAL */
+.second-modal-title {
+  color: #4682B4;
+  text-align: center;
+}
+
+.second-modal-paragraph {
+  color: darkslategray;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+/* THIRD MODAL */
+.modal-three-title {
+  text-align: center;
+}
+
+.movie-title {
+  color: #4682B4;
+}
+
+.movie-year {
+  font-weight: 500;
+  font-size: 25px;
+  color: darkslategray;
+}
+
+.quote {
+  color: #2F4F4F;
+}
+
+.movie-quote {
+  color: gray;
+  font-weight: 400;
+}
+
+.music-title {
+  color: #DB7093;
+}
+
+.third-modal-paragraph {
+  color: darkslategray;
+  text-align: justify;
+}
+
+.third-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.close-third-modal {
+  width: 170px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 3px 1px rgba(0,0,0,.1),0px 1px 2px rgba(0,0,0,.8),0px 2px 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  bottom: 0px;
+}
+
+.close-third-modal:hover {
+  background-color: salmon;
+  color: #000;
+}
